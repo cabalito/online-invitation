@@ -1,0 +1,23 @@
+.fp-controlArrow.fp-prev {
+  left: 25px !important;
+  border: solid rgba(248, 113, 113, var(--tw-border-opacity)) !important;
+  border-width: 0 3px 3px 0 !important;
+  display: inline-block;
+  padding: 20px !important;
+  top: 50%;
+  position: absolute;
+  z-index: 10;
+  transform: rotate(135deg);
+}
+
+.fp-controlArrow.fp-next {
+  right: 25px !important;
+  border: solid rgba(248, 113, 113, var(--tw-border-opacity)) !important;
+  border-width: 0 3px 3px 0 !important;
+  display: inline-block;
+  padding: 20px !important;
+  top: 50%;
+  position: absolute;
+  z-index: 10;
+  transform: rotate(-45deg);
+}
