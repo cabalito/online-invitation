@@ -16,7 +16,7 @@ const Slide1 = () => {
       </div>
       <div className="px-6 py-8 lg:px-16 lg:py-16 h-2/3 md:flex md:justify-center md:items-center">
         <article className="space-y-4 sm:max-w-prose text-left">
-          <p className="text-md text-gray-600 font-sans">
+          <p className="text-lg text-gray-600 font-sans">
             Os esperamos en la {' '}
             <strong className="font-bold">
               <a href="https://goo.gl/maps/37Q55nhqoFUasfyGA"> Capilla de San Pedro de la Catedral de Toledo </a>
@@ -27,10 +27,10 @@ const Slide1 = () => {
               18:00 horas.
             </strong>
           </p>
-          <p className="text-md text-gray-600 font-sans">
-            A continuación, seguiremos disfrutando en el{' '}
+          <p className="text-lg text-gray-600 font-sans">
+            A continuación, seguiremos disfrutando en el cigarral{' '}
             <strong className="font-bold">
-              <a href="https://g.page/CigarralSantaMaria?share"> Santa María de Toledo a las 20:30. </a>
+              <a href="https://g.page/CigarralSantaMaria?share"> Viñedos de Santa María de Toledo a las 20:30. </a>
             </strong>
 
           </p>
