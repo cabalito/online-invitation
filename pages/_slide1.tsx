@@ -16,9 +16,6 @@ const Slide1 = () => {
       </div>
       <div className="px-6 py-8 lg:px-16 lg:py-16 h-2/3 md:flex md:justify-center md:items-center">
         <article className="space-y-4 sm:max-w-prose text-left">
-          <h3 className="text-md text-gray-600 font-bold font-serif">
-            ¡Nos casamos!
-          </h3>
           <p className="text-md text-gray-600 font-sans">
             Os esperamos en la {' '}
             <strong className="font-bold">

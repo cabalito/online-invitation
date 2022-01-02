@@ -30,12 +30,12 @@ const Slide2 = () => {
                 Nuestra Historia
               </h3>
               <p className="text-md text-white font-sans mt-2">
-                A continuación, seguiremos disfrutando en e
-                A continuación, seguiremos disfrutando en e
-                A continuación, seguiremos disfrutando en e
-                A continuación, seguiremos disfrutando en e
-                A continuación, seguiremos disfrutando en e
-
+                El sol se ponía desde el desierto del Sahara donde por fin nos dabamos el
+                <strong className="font-bold"> ¡Sí, quiero! </strong>
+              </p>
+              <p className="text-md text-white font-sans mt-2">
+                Han pasado más de 12 años desde que se cruzaron nuestros caminos. Estamos deseando
+                que el 18 de junio sigais formando parte de nuestra historia
               </p>
             </div>
           </div>

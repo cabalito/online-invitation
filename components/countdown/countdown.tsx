@@ -12,7 +12,7 @@ const Countdown = () => {
     { value: 'seconds', label: 'Segundos', accent: true }
   ];
   return (
-    <div className="flex justify-center sm:items-center md:justify-start mb-8 md:mr-8 md:mb-0">
+    <div className="flex justify-center sm:items-center md:justify-start md:mr-8 md:mb-0">
       <ReactCountdown
         autoStart
         daysInHours={false}
@@ -25,26 +25,15 @@ const Countdown = () => {
             // Render a countdown
 
             return (
-              <div className="flex flex-grow-0 border-4 rounded-md border-red-400 space-x-4 max-w-min px-2">
-                {items.map((item, i) => (
-                  <div key={item.value} className="flex flex-col space-y-2">
-                    <span
-                      className={`text-3xl font-extrabold font-serif text-center sm:text-5xl ${
-                        item.accent ? 'text-red-400' : 'text-gray-800'
-                      }`}
+              <div className="flex flex-grow-0 rounded-md  space-x-8  ">
+                    <h2
+                      className={`text-xl font-bold text-gray-600 font-sans`}
                     >
-                      {/* @ts-ignore */}
-                      {countdownOptions[item.value]}
-                    </span>
-                    <span
-                      className={`text-lg font-extrabold font-serif text-center sm:text-1xl ${
-                        item.accent ? 'text-red-400' : 'text-gray-800'
-                      }`}
-                    >
-                      {item.label}
-                    </span>
-                  </div>
-                ))}
+                    {/* @ts-ignore */}
+                    ¡Sólo faltan <strong className="font-bold"> {countdownOptions['days']}</strong> días
+                    , <strong className="font-bold">{countdownOptions['hours']}</strong> horas
+                    y <strong className="font-bold">{countdownOptions['minutes']}</strong> minutos!
+                    </h2>
               </div>
             );
           }

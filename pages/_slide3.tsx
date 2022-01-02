@@ -7,7 +7,7 @@ const Slide3 = (props: any) => {
   return (
     <div className="h-full w-full">
       <div className="h-full grid grid-rows-5 sm:grid-rows-1 sm:grid-cols-2">
-        <div className="h-full relative row-span-2 sm:row-span-1">
+        <div className="h-full relative row-span-1 sm:row-span-1">
           <Image src="/capilla.jpg" layout="fill" objectFit="cover" />
         </div>
         <div className="flex flex-col justify-between row-span-3 sm:row-span-1 sm:p-4 lg:px-16 lg:py-16">
@@ -26,8 +26,6 @@ const Slide3 = (props: any) => {
               Toledo).
             </p>
           </article>
-          <p className="text-md text-gray-600 font-sans">
-            Como llegar a la capilla </p>
           {typeof window !== 'undefined' && (
             <iframe
               width="100%"
