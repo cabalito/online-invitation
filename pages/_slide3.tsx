@@ -16,7 +16,7 @@ const Slide3 = (props: any) => {
               Capilla de San Pedro
             </h2>
             <p className="text-md text-gray-600 font-sans">
-              La ceremonia se celebrará en la capilla de San Pedro, en la catedral de
+              La ceremonia se celebrará en la capilla de San Pedro, en la Catedral de
               Toledo.
             </p>
             <p className="text-md text-gray-600 font-sans">
