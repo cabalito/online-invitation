@@ -10,7 +10,7 @@ const Slide3 = (props: any) => {
         <div className="h-full relative row-span-1 sm:row-span-1">
           <Image src="/capilla.jpg" layout="fill" objectFit="cover" />
         </div>
-        <div className="flex flex-col justify-between row-span-3 sm:row-span-1 sm:p-4 lg:px-16 lg:py-16">
+        <div className="flex flex-col justify-between row-span-5 sm:p-4 lg:px-16 lg:py-16">
           <article className="px-4 pt-5 sm:p-0 space-y-4 sm:max-w-prose mb-2 sm:mb-8">
             <h2 className="text-gray-800 font-extrabold text-3xl font-serif">
               Capilla de San Pedro
