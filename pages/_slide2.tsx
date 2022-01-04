@@ -29,13 +29,13 @@ const Slide2 = () => {
               <h3 className="text-white text-3xl sm:text-5xl lg:text-xl lg:text-5xl font-extrabold font-serif">
                 Nuestra Historia
               </h3>
-              <p className="text-md text-white font-sans mt-2">
+              <p className="text-md text-white font-sans mt-6 mb-10">
                 El sol se ponía desde el desierto del Sahara donde por fin nos dabamos el
                 <strong className="font-bold"> ¡Sí, quiero! </strong>
               </p>
               <p className="text-md text-white font-sans mt-2">
                 Han pasado más de 12 años desde que se cruzaron nuestros caminos. Estamos deseando
-                que el 18 de junio sigais formando parte de nuestra historia
+                que el 18 de junio sigáis formando parte de nuestra historia
               </p>
             </div>
           </div>

@@ -8,7 +8,7 @@ const Slide1 = () => {
       <Header
         alt="vista panorámica de toledo"
         backgroundImage="/toledo-view.jpg"
-        text="Bienvenidos a la boda del año!"
+        text="¡Bienvenidos a la boda del año!"
       />
       <div>
       <div className="px-4 py-8 lg:px-16 lg:py-16 h-2/3 md:flex md:justify-center md:items-center">
@@ -18,21 +18,23 @@ const Slide1 = () => {
         <article className="space-y-4 sm:max-w-prose text-left">
           <p className="text-lg text-gray-600 font-sans">
             Os esperamos en la {' '}
-            <strong className="font-bold">
-              <a href="https://goo.gl/maps/37Q55nhqoFUasfyGA"> Capilla de San Pedro de la Catedral de Toledo </a>
+            <strong className="font-bold  text-blue">
+              Capilla de San Pedro de la Catedral de Toledo
             </strong>
+
             (entrada junto al ayuntamiento bajo el arco)
             a las {'  '}
             <strong className="font-bold">
               18:00 horas.
             </strong>
+            <em className="text-blue-600"><a href="https://goo.gl/maps/37Q55nhqoFUasfyGA"> Cómo llegar </a></em>
           </p>
           <p className="text-lg text-gray-600 font-sans">
             A continuación, seguiremos disfrutando en el cigarral{' '}
             <strong className="font-bold">
-              <a href="https://g.page/CigarralSantaMaria?share"> Viñedos de Santa María de Toledo a las 20:30. </a>
+              Viñedos de Santa María de Toledo a las 20:30.
             </strong>
-
+            <em className="text-blue-600"> <a href="https://g.page/CigarralSantaMaria?share"> Cómo llegar </a></em>
           </p>
         </article>
       </div>

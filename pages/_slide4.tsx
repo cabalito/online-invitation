@@ -14,15 +14,18 @@ const Slide4 = (props: any) => {
             objectPosition="bottom left"
           />
         </div>
-        <div className="flex flex-1 flex-col justify-between row-span-3 sm:row-span-1 sm:p-4 lg:px-16 lg:py-16">
-          <article className="px-4 pt-5 sm:p-0 space-y-4 sm:max-w-prose mb-2 sm:mb-8">
+        <div className="flex flex-1 flex-col justify-between row-span-5 sm:row-span-1 sm:p-4 lg:px-16 lg:py-16">
+          <article className="px-4 pt-5 sm:p-0 space-y-4 sm:max-w-prose mb-2 sm:mb-12">
             <h2 className="text-gray-800 font-extrabold text-3xl font-serif">
               Cigarral Viñedos de Santa María
             </h2>
-            <p className="text-md text-gray-600 font-sans">
+            <p className="text-md text-gray-600 font-sans mt-6 mb-6">
 
               Custodiando la ciudad de Toledo desde lo alto del Cerro del Emperador se encuentra
-              Viñedos Cigarral Santa María. Esperamos que os guste tanto como a nosotros, para acceder puedes hacer click en
+              Viñedos Cigarral Santa María.
+              </p>
+            <p className="text-md text-gray-600 font-sans mt-6 mb-6">
+              Esperamos que os guste tanto como a nosotros, para acceder puedes hacer click en
               el siguiente enlace:
             </p>
           </article>
