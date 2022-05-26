@@ -14,7 +14,7 @@ const Slide1 = () => {
       <div className="px-4 py-8 lg:px-16 lg:py-16 h-2/3 md:flex md:justify-center md:items-center">
         <Countdown />
       </div>
-      <div className="px-6 py-8 lg:px-16 lg:py-16 h-2/3 md:flex md:justify-center md:items-center">
+      <div className="px-6 py-8 lg:px-16 lg:py-5 h-2/3 md:flex md:justify-center md:items-center">
         <article className="space-y-4 sm:max-w-prose text-left">
           <strong  className="font-bold text-red-600">
             Aviso: Ha habido un cambio en la hora y la puerta de acceso
