@@ -1,45 +1,46 @@
 import React from 'react';
-import Image from 'next/image';
-import { getCurrentBreakpoint } from 'utils/get-current-breakpoint';
+  import Image from 'next/image';
 
-const Slide3 = (props: any) => {
-  const currentBreakpoint = getCurrentBreakpoint();
+  const Slide2 = () => {
   return (
-    <div className="h-full w-full">
-      <div className="h-full grid grid-rows-5 sm:grid-rows-1 sm:grid-cols-2">
-        <div className="h-full relative row-span-1 sm:row-span-1">
-          <Image src="/capilla.jpg" layout="fill" objectFit="cover" />
+<div className="slide">
+  <div className="h-full w-full p-4 lg:px-16 lg:py-16 bg-gray-000">
+
+    <div className="h-full grid grid-cols-1 gap-4 lg:grid-cols-3 lg:h-1/3">
+      <div className="h-full lg:col-span-2">
+        <div className="items-center justify-center h-full lg:h-1/3 w-full">
+          <h3 className="text-gray-800 text-3xl sm:text-5xl lg:text-xl lg:text-5xl font-extrabold font-serif">
+            Acceso en coche
+          </h3>
+
+          <p className="text-gray-800 text-md text-white font-sans mt-6 mb-10">
+            Además de nuestra boda, ese día Toledo se encuentra en las fiestas del Corpus.
+            <p>La parte positiva es que todas las calles y patios están decorados, os animamos a que os deis un paseo por las calles del casco para visitarlo.</p>
+            <p>La parte negativa es que el aparcamiento para acceder a la catedral estará complicado; por ello, os damos un par de consejos:</p>
+            <ol className=" mt-6 mb-10">
+              <li>1. Aparcar en el parking gratuito de la estación de autobuses <a className="text-blue-600" href="https://goo.gl/maps/CuxzPUwTAKeAvX1JA">(Pincha aquí para saber cómo llegar)</a> y subir utilizando las escaleras mecánicas. Al salir de misa podreis utilizar el servicio de autobuses.</li>
+              <li>2. Aparcar en el restaurante. El restaurante se encuentra alejado del casco histórico por lo que tendrá aparcamiento de sobra; desde aquí, podreis tomar un taxi para llegar a la catedral(apróximadamente 10€)</li>
+              <li>3. Los autobuses de linea que realizan parada en Zocodover son: Linea 5, 12, 61, 62, 511</li>
+            </ol>
+          </p>
         </div>
-        <div className="flex flex-col justify-between row-span-5 sm:p-4 lg:px-16 lg:py-16">
-          <article className="px-4 pt-5 sm:p-0 space-y-4 sm:max-w-prose mb-2 sm:mb-8">
-            <h2 className="text-gray-800 font-extrabold text-3xl font-serif">
-              Capilla de San Pedro
-            </h2>
-            <p className="text-md text-gray-600 font-sans">
-              La ceremonia se celebrará en la capilla de San Pedro, en la Catedral de
-              Toledo.
-            </p>
-            <p className="text-md text-gray-600 font-sans">
-              Se accede a través de la{' '}
-              <strong className="font-bold">calle Arco del Palacio</strong>{' '}
-              (bajo el arco de palacio junto a la plaza del ayuntamiento de
-              Toledo).
-            </p>
-          </article>
-          {typeof window !== 'undefined' && (
-            <iframe
-              width="100%"
-              height={!currentBreakpoint ? '50%' : '100%'}
-              className="border-0"
-              loading="lazy"
-              allowFullScreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.003690095388!2d-4.025028170761653!3d39.857455828201985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0ba689676e9f%3A0x6ed9df9400d342f1!2sC.%20Arco%20de%20Palacio%2C%202%2C%2045002%20Toledo!5e1!3m2!1ses!2ses!4v1639854227969!5m2!1ses!2ses"
-            />
-          )}
+      </div>
+      <div className="h-full flex flex-row-reverse lg:flex-col">
+        <div className="h-full w-1/2 relative ">
+          <Image
+            src="/parking.jpeg"
+            layout="fill"
+            objectFit="fill"
+            objectPosition="center"
+          />
         </div>
       </div>
     </div>
-  );
-};
 
-export default Slide3;
+
+  </div>
+</div>
+  );
+  };
+
+  export default Slide2;

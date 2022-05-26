@@ -5,11 +5,14 @@ import Slide1 from './_slide1';
 import Slide2 from './_slide2';
 import Slide3 from './_slide3';
 import Slide4 from './_slide4';
+import Slide5 from './_slide5';
+import Slide6 from './_slide6';
+
 
 const API_KEY = process.env.API_KEY;
 
 const Home: NextPage = (props: any) => {
-  const slides = [Slide1, Slide2, Slide3, Slide4];
+  const slides = [Slide1, Slide2, Slide3, Slide4, Slide5, Slide6];
   return (
     <div>
       <Head>
